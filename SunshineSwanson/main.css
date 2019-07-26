@@ -1,0 +1,25 @@
+#navbar {
+  color:black;
+  font-size: 1.7em;
+  letter-spacing: 0.04em;
+  padding: 1.0em 1.0em 0.5em;
+  margin: 1.0em 0 ;
+}
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#navbar li {
+  display: inline-block;
+  margin: 0;
+}
+nav li a, nav li a:visited {
+  text-decoration: none;
+  color: rgb(93, 77, 129);
+  padding: 0.3em 0.6em;
+}
+nav li a:hover {
+  color: #C64322;
+  background-color: rgba(252,251,243,0.75);
+}
